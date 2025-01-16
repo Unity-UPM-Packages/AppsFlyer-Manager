@@ -1,7 +1,10 @@
 {
     "name": "com.thelegends.appsflyer.manager",
     "rootNamespace": "com.thelegends.appsflyer.manager",
-    "references": [],
+    "references": [
+        "GUID:b9892e19a741c2c4690060e4a6416aca",
+        "GUID:2a37df438292d4903b4e5159c5de3bf9"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
