@@ -1,0 +1,16 @@
+{
+    "name": "com.thelegends.appsflyer.manager.Demo",
+    "rootNamespace": "com.thelegends.appsflyer.manager.Demo",
+    "references": [
+        "com.thelegends.appsflyer.manager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
