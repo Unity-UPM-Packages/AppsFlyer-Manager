@@ -751,7 +751,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: USE_APPSFLYER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
