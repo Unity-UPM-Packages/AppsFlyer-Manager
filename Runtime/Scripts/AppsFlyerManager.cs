@@ -26,7 +26,7 @@ namespace TheLegends.Base.AppsFlyer
             StartCoroutine(DoInit());
         }
 
-        private IEnumerator DoInit()
+        public IEnumerator DoInit()
         {
             yield return new WaitForSeconds(0.1f);
 
