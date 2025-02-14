@@ -10,7 +10,7 @@
   "scopedRegistries": [
     {
       "name": "TripSoft",
-      "url": "https://verdaccio.tripdev.io",
+      "url": "https://verdaccio-2.tripdev.io",
       "scopes": [
         "com.thelegends",
         "com.google"
