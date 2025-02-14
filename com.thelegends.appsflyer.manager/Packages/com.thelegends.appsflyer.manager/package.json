@@ -20,15 +20,5 @@
   "dependencies": {
     "com.thelegends.appsflyer.sdk": "6.15.3",
     "com.thelegends.unity.patterns": "1.0.0"
-  },
-  "scopedRegistries": [
-    {
-      "name": "TripSoft",
-      "url": "https://verdaccio.tripdev.io",
-      "scopes": [
-        "com.thelegends",
-        "com.google"
-      ]
-    }
-  ]
+  }
 }
