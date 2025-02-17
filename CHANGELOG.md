@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.2...v1.0.3) (2025-02-17)
+
+
+### Bug Fixes
+
+* update packages ([a7d2eec](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/a7d2eecdb1d9f1af1106016deb4949ae53d1b393))
+
 ## [1.0.2](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.1...v1.0.2) (2025-02-17)
 
 
