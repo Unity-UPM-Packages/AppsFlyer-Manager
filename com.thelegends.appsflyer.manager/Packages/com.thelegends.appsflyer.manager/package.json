@@ -17,7 +17,7 @@
     "url": "https://github.com/Unity-UPM-Packages"
   },
   "dependencies": {
-    "com.thelegends.unity.patterns": "1.0.2",
+    "com.thelegends.unity.patterns": "1.0.0",
     "appsflyer-unity-plugin": "6.15.1"
   }
 }
