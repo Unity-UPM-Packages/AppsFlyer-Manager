@@ -3,7 +3,8 @@
     "rootNamespace": "com.thelegends.appsflyer.manager",
     "references": [
         "GUID:b9892e19a741c2c4690060e4a6416aca",
-        "GUID:2a37df438292d4903b4e5159c5de3bf9"
+        "GUID:2a37df438292d4903b4e5159c5de3bf9",
+        "GUID:00c479e63b1c74419820a39073267645"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
