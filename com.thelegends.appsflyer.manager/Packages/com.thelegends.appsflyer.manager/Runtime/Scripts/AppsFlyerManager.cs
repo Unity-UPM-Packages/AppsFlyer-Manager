@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TheLegends.Base.UnitySingleton;
 using UnityEngine;
 using AppsFlyerSDK;
+using System;
 
 #if UNITY_IOS
 /*
