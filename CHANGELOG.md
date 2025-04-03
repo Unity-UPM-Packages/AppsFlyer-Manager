@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.5...v1.0.6) (2025-04-03)
+
+
+### Bug Fixes
+
+* reference assembly to unity ios 14 ads support ([9081d12](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/9081d12c48f87bb31c19370fbb12f2f4a6063418))
+
 ## [1.0.5](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.4...v1.0.5) (2025-02-18)
 
 
