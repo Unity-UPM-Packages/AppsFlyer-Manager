@@ -2,7 +2,8 @@
     "name": "com.thelegends.appsflyer.manager.Editor",
     "rootNamespace": "com.thelegends.appsflyer.manager.Editor",
     "references": [
-        "com.thelegends.appsflyer.manager"
+        "com.thelegends.appsflyer.manager",
+        "AppsFlyer"
     ],
     "includePlatforms": [
         "Editor"
