@@ -1,4 +1,4 @@
-#if UNITY_EDITOR && UNITY_IOS
+#if UNITY_EDITOR && UNITY_IOS && USE_APPSFLYER
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
