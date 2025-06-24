@@ -28,7 +28,7 @@ MonoBehaviour:
     m_ConfigSource: 0
   - m_Id: scoped:project:TripSoft
     m_Name: TripSoft
-    m_Url: https://verdaccio-2.tripdev.io
+    m_Url: https://verdaccio.thelegends.io.vn
     m_Scopes:
     - com.thelegends
     - com.google
