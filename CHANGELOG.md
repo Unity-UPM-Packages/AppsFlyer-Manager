@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.6...v1.0.7) (2025-06-24)
+
+
+### Bug Fixes
+
+* Add BuildPostProcess ([15d9156](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/15d91565ad5bb039fab0ac02aea193259a9884fe))
+* if USE_APPSFLYER ([c0b9c2a](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/c0b9c2a547e7445c6c810e6355736896bb99e450))
+* remove Define Constraints ([ced60ef](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/ced60ef4b0a1370b8093e331556a7c5488889099))
+
 ## [1.0.6](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.5...v1.0.6) (2025-04-03)
 
 
