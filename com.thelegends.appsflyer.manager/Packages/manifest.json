@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "appsflyer-unity-plugin": "6.15.1",
+    "com.appsflyer.unity": "6.17.1",
     "com.boxqkrtm.ide.cursor": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
     "com.thelegends.unity.patterns": "1.0.1",
     "com.unity.ads.ios-support": "1.2.0",
@@ -16,7 +16,7 @@
       "scopes": [
         "com.thelegends",
         "com.google",
-        "appsflyer-unity-plugin"
+        "com.appsflyer.unity"
       ]
     }
   ]
