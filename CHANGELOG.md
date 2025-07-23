@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.7...v1.0.8) (2025-07-23)
+
+
+### Bug Fixes
+
+* update appsflyer dependencies 6.17.1 ([fced745](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/fced745144e4b59cf2e92aa43422e788cb38b4c6))
+
 ## [1.0.7](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.6...v1.0.7) (2025-06-24)
 
 
