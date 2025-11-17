@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.8...v1.0.9) (2025-11-17)
+
+
+### Bug Fixes
+
+* add conversionDataStatus ([e0aa564](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/e0aa56403625a55459c28f4a693c26b6138be0d7))
+
 ## [1.0.8](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.7...v1.0.8) (2025-07-23)
 
 
