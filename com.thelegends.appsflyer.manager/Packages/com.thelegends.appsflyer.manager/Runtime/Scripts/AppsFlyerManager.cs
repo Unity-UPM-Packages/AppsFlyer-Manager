@@ -22,13 +22,18 @@ namespace TheLegends.Base.AppsFlyer
 {
     public class AppsFlyerManager : PersistentMonoSingleton<AppsFlyerManager>, IAppsFlyerConversionData
     {
+        public Action<string> OnInitComplete = null;
+        private GetConversionDataStatus conversionDataStatus;
+
         public void Init()
         {
             StartCoroutine(DoInit());
         }
 
-        public IEnumerator DoInit()
+        public IEnumerator DoInit(Action<string> onCompelte = null)
         {
+            OnInitComplete = onCompelte;
+
             yield return new WaitForSeconds(0.1f);
 
 #if UNITY_IOS
@@ -77,6 +82,11 @@ namespace TheLegends.Base.AppsFlyer
 
             StartAppsFlyer();
 
+            while (conversionDataStatus == GetConversionDataStatus.Fetching)
+            {
+                yield return null;
+            }
+
             yield return new WaitForSeconds(0.1f);
         }
 
@@ -89,6 +99,11 @@ namespace TheLegends.Base.AppsFlyer
 
             AppsFlyerSDK.AppsFlyer.startSDK();
 
+#if UNITY_EDITOR
+            conversionDataStatus = GetConversionDataStatus.Success;
+#elif UNITY_IOS || UNITY_ANDROID
+            conversionDataStatus = AppsFlyerSettings.Instance.getConversionData ? GetConversionDataStatus.Fetching : GetConversionDataStatus.None;
+#endif
         }
 
         // Mark AppsFlyer CallBacks
@@ -97,10 +112,14 @@ namespace TheLegends.Base.AppsFlyer
             AppsFlyerSDK.AppsFlyer.AFLog("didReceiveConversionData", conversionData);
             Dictionary<string, object> conversionDataDictionary = AppsFlyerSDK.AppsFlyer.CallbackStringToDictionary(conversionData);
             // add deferred deeplink logic here
+
+            conversionDataStatus = GetConversionDataStatus.Success;
+            OnInitComplete?.Invoke(conversionData);
         }
 
         public void onConversionDataFail(string error)
         {
+            conversionDataStatus = GetConversionDataStatus.Fail;
             AppsFlyerSDK.AppsFlyer.AFLog("didReceiveConversionDataWithError", error);
         }
 
