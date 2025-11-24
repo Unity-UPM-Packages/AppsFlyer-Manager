@@ -8,5 +8,6 @@ namespace TheLegends.Base.AppsFlyer
         Fetching = 1,
         Success = 2,
         Fail = 3,
+        Timeout = 4
     }
 }
