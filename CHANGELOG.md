@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.9...v1.0.10) (2025-11-27)
+
+
+### Bug Fixes
+
+* add Timeout GetConversionDataStatus. Improve init sdk ([c38778e](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/commit/c38778e564f78849a65bdbc8878c846066271141))
+
 ## [1.0.9](https://github.com/Unity-UPM-Packages/AppsFlyer-Manager/compare/v1.0.8...v1.0.9) (2025-11-17)
 
 
